@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{BEBAA21D-198E-40A7-9046-7D1E31B46DB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{078271A4-40B2-437C-9A48-E5E141DED9C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{61102581-0F80-4F80-8263-6615338C431F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityIntelligence", "CommunityIntelligence\CommunityIntelligence.csproj", "{AC27F3B2-EBC8-4C86-8581-0DB556564287}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vs", "vs", "{F4E1DD7F-4427-48E0-AD01-DBE905BA768C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC27F3B2-EBC8-4C86-8581-0DB556564287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC27F3B2-EBC8-4C86-8581-0DB556564287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC27F3B2-EBC8-4C86-8581-0DB556564287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC27F3B2-EBC8-4C86-8581-0DB556564287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC27F3B2-EBC8-4C86-8581-0DB556564287} = {61102581-0F80-4F80-8263-6615338C431F}
+	EndGlobalSection
+EndGlobal
